@@ -1,7 +1,7 @@
 use ff::{PrimeField, PrimeFieldRepr};
 use pairing::bls12_381::Bls12;
+use rand::rngs::OsRng;
 use rand_core::RngCore;
-use rand_os::OsRng;
 use zcash_primitives::jubjub::{edwards, JubjubBls12};
 use zcash_primitives::primitives::{Diversifier, ViewingKey};
 

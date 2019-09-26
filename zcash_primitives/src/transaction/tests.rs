@@ -1,6 +1,6 @@
 use ff::Field;
 use pairing::bls12_381::Bls12;
-use rand_os::OsRng;
+use rand::rngs::OsRng;
 
 use crate::jubjub::{fs::Fs, FixedGenerators};
 
